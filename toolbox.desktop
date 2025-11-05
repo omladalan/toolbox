@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=Toolbox
+Exec=gnome-terminal --maximize -- /bin/bash -c "sudo ~/toolbox/toolbox.sh; exec bash"
+Terminal=true
+Type=Application
+Icon=/home/portoes/toolbox/arame.png
