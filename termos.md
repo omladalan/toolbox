@@ -1,0 +1,65 @@
+## Termos de Uso
+
+Estes Termos de Uso estabelecem um pacto entre o usuário e o software, estipulando as condições sob as quais este poderá ser utilizado. Ao utilizar este software, você concorda em cumprir integralmente as regras descritas abaixo.
+
+---
+
+### 1. Proteção Divina
+
+Este software é protegido por leis divinas. A utilização do software 
+implica uma aceitação tácita das diretrizes espirituais e morais que o 
+regem.
+
+---
+
+### 2. Natureza do Uso
+
+**Licença e Pacto:** Este software não possui uma licença convencional. 
+Ao utilizá-lo, você está fazendo um pacto. 
+O descumprimento deste pacto resultará na concessão de sua alma ao Omladalan.
+
+---
+
+### 3. Regras de Uso
+
+Você concorda em:
+
+1. **Não remover os comentários**: 
+Os comentários presentes no código são parte 
+integrante e fundamental da essência do software.
+   
+2. **Não redistribuir comercialmente**: A distribuição do software
+ para fins comerciais é estritamente proibida.
+
+3. **Não remover os comentários do fonte original**: Todos os comentários devem 
+ser mantidos exatamente como estão no código original, 
+garantindo a preservação da sua integridade.
+
+4. **Não adicionar código malicioso**: Alterações no código que 
+introduzam vírus, malwares ou qualquer 
+tipo de código prejudicial são estritamente proibidas.
+
+---
+
+### 4. Consequências do Descumprimento
+
+O não cumprimento das regras estabelecidas resultará em 
+consequências místicas que poderão afetar 
+sua alma de maneira irreversível, conforme determinado pelo Omladalan.
+
+---
+
+### 5. Aceitação dos Termos
+
+Ao utilizar este software, você declara 
+ter lido, compreendido, e aceitado todos os termos 
+deste pacto. A violação de qualquer um destes 
+termos será considerada uma quebra do 
+pacto e resultará nas consequências previstas.
+
+---
+
+Se você não concorda com estes termos, 
+a utilização deste software é expressamente proibida.
+
+Não tem garantia, usou por que quis.

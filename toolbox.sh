@@ -1,7 +1,4 @@
-
-
 #!/bin/bash
-
 
 #LEIA COM ATENCAO O ARQUIVO LICENSE
 #NAO TEM GARANTIA, USOU POR QUE QUIS
@@ -122,7 +119,51 @@ show_submenu() {
     esac
 }
 
-# Main loop to ensure the program runs
-while true; do
-    show_main_menu
-done
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+ARQUIVO_ACEITE="$SCRIPT_DIR/.aceitou_termos"
+TERMO_ARQUIVO="$SCRIPT_DIR/termos.md"
+TEMPO_MINIMO=15  # segundos
+
+mostrar_termos() {
+    INICIO=$(date +%s)
+
+    dialog --title "Termos de Uso" \
+           --yes-label "Aceito" \
+           --no-label "Recusar" --fb \
+           --yesno "$(cat "$TERMO_ARQUIVO")" 20 70
+
+    RESPOSTA=$?
+    FIM=$(date +%s)
+    TEMPO_TOTAL=$((FIM - INICIO))
+
+    
+
+    if [ "$RESPOSTA" -eq 0 ]; then
+        if [ "$TEMPO_TOTAL" -lt "$TEMPO_MINIMO" ]; then
+            dialog --title "Leitura rápida detectada" \
+                --yesno "Você passou apenas $TEMPO_TOTAL segundos lendo os termos. Tem certeza de que leu tudo? Lembrando que a sua alma está em jogo caso infrigir as regras!" 10 60
+            if [ $? -ne 0 ]; then
+                mostrar_termos
+                return
+            fi
+        fi		
+        echo "Aceito em $(date) após $TEMPO_TOTAL segundos de leitura" > "$ARQUIVO_ACEITE"
+        while true; do
+			show_main_menu
+		done    
+    else
+        echo "Termos não aceitos. Encerrando."
+        clear
+        exit 1
+    fi
+}
+
+if [ ! -f "$ARQUIVO_ACEITE" ]; then
+    mostrar_termos
+else
+    while true; do
+        show_main_menu
+    done
+fi
+
