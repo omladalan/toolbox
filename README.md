@@ -33,3 +33,12 @@ Por hora só funciona o Menu Services. Vou implementar o restante com o tempo.
 
 
 Estou utilizando o Debian 13 com o Cinnamon no qual já vem com o whiptail instalado nativamente, não sei se o atalho funciona nas demais interfaces gráficas.
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/c95a19e0-cf00-4301-a9e6-2c46447dc1d7
+
